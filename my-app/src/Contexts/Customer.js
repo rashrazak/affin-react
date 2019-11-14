@@ -16,7 +16,7 @@ function CustomerProvider(props) {
             setCustomers(res.data)
         }).catch((error)=>{
             console.log(error)
-            alert('Error 404')
+            alert('Server offline')
         })
     }
 
